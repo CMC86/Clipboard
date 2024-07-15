@@ -19,7 +19,10 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
+Users should be able to:
 
+View the optimal layout for the site depending on their device's screen size
+See hover states for all interactive elements on the page
 ### The challenge
 
 Users should be able to:
@@ -29,83 +32,53 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](images\screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/CMC86/Clipboard]
+- Live Site URL: [https://cmc86.github.io/Clipboard/]
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+Semantic HTML5 markup
+CSS custom properties
+Flexbox
+Mobile-first workflow
+Bootstrap - CSS framework
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
+Working on this project allowed me to reinforce my understanding of responsive design and CSS positioning. I also learned more about using Bootstrap to quickly style and layout elements.
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Here's an example of code I’m proud of:
 
-To see how you can add code snippets, see below:
+<header class="text-center py-5 bg-light">
+  <img src="images/logo.svg" alt="Logo" class="logo mb-4">
+  <h1 class="display-4">A history of everything you copy</h1>
+  <p class="lead text-muted">Clipboard allows you to track and organize everything you copy. Instantly access your clipboard on all your devices.</p>
+  <div class="mt-4">
+    <a href="#" class="btn btn-success btn-lg mr-2">Download for iOS</a>
+    <a href="#" class="btn btn-primary btn-lg">Download for Mac</a>
+  </div>
+</header>
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
+In future projects, I plan to delve deeper into advanced CSS techniques and JavaScript to add more interactive elements and enhance user experience. I also aim to explore more modern frameworks like React.
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+Bootstrap Documentation - This helped me to quickly prototype the layout and apply styles efficiently.
+CSS Tricks - A great resource for learning and solving specific CSS issues.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+turtleMan 
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+I would like to thank the Frontend Mentor community for their feedback and support. Their insights helped me to improve the quality of my project. And of course Per Scholas, who I'm forever grateful for.
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
