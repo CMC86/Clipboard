@@ -1,12 +1,16 @@
 /* Base Styles */
-
 body {
     font-family: 'Arial', sans-serif;
     color: #333;
     line-height: 1.6;
+    background-color: #f8f9fa;
 }
 
 /* Header */
+header {
+    background: #f8f9fa;
+    padding: 50px 0;
+}
 
 header .logo {
     width: 80px;
@@ -14,33 +18,43 @@ header .logo {
 
 header h1 {
     font-size: 2.5rem;
+    margin-top: 20px;
 }
 
 header p {
     font-size: 1.1rem;
+    color: #6c757d;
 }
 
 header .btn {
-    padding: 10px 20px;
+    padding: 10px 30px;
+    border-radius: 50px; /* Rounded buttons */
 }
 
 /* Features Section */
-
-.features h2, .access h2, .supercharge h2 {
-    font-size: 2rem;
+.container {
+    max-width: 960px;
 }
 
-.features p, .access p, .supercharge p {
-    font-size: 1.1rem;
+.computer-image {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
-.feature-item img, .supercharge-item img {
-    width: 60px;
-    margin-bottom: 20px;
+.feature-item {
+    margin-bottom: 30px;
+}
+
+.feature-item h3 {
+    font-size: 1.5rem;
+}
+
+.feature-item p {
+    color: #6c757d;
 }
 
 /* Access Section */
-
 .access img {
     width: 80%;
     max-width: 600px;
@@ -48,13 +62,18 @@ header .btn {
 }
 
 /* Companies Section */
-
 .companies img {
     width: 100px;
     margin: 20px;
 }
 
 /* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
 .footer-links a {
     text-decoration: none;
     color: #fff;
@@ -66,4 +85,9 @@ header .btn {
 
 .social-icons img {
     width: 24px;
+}
+
+footer .btn {
+    padding: 10px 30px;
+    border-radius: 50px; /* Rounded buttons */
 }
